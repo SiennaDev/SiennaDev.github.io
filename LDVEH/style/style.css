@@ -1,0 +1,181 @@
+html{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+body{
+	position: relative;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+
+#haut{
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+
+#title
+{
+	font-family: 'Quicksand';
+	font-size: 200%;
+	text-align: center;
+	color : #303030;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 2.5%;
+	margin-bottom: 0.2%;
+}
+
+#title2
+{
+	font-family: 'Quicksand';
+	font-size: 100%;
+	text-align: center;
+	color : #303030;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 0.2%;
+	margin-bottom: 2.5%;
+}
+
+#title3
+{
+	font-family: 'Quicksand';
+	font-size: 50%;
+	text-align: center;
+	color : #FFFFFF;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 0.2%;
+	margin-bottom: 2.5%;
+}
+
+
+#login{
+	font-family: 'Quicksand';
+	font-size: 100%;
+	display: block;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-right: 2.5%;
+	margin-left: 0;
+}
+
+#login a{
+	color : #303030;
+}
+
+#colorpicker{
+	margin-right: 2.5%;
+}
+
+#VideoStream{
+	display: flex;
+	align-items: center;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+#ImgStream{
+	width: 50%;
+	border: 0;
+}
+
+section{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+p {
+	justify-content: space-around;
+	text-align: justify;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* Disposition du pied de page(footer), avec couleur et épaisseur*/
+footer
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #303030;
+	width: 100%;
+}
+
+/* Propriétés pour centrer le texte des 4 cases du pied de page */
+footer ul
+{
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Texte du footer, couleur et taille de police, avec hauteur des lignes pour ajuster au mieux les lignes*/
+footer ul li
+{
+	font-family: 'Quicksand';
+	vertical-align: top;
+	text-align: left;
+	color: #FFFFFF;
+	line-height: 20px;
+	list-style: none;
+}
+
+/* Couleur du texte des lien*/
+footer ul li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* idem que prècedent*/
+footer a
+{
+	color: #FFFFFF;
+	display: inline-block;
+	position: relative;
+}
+
+/* Changement de couleur du footer après placement avec le curseur*/
+.footer:hover
+{
+	background-color: #FFFFFF;
+	transition: 1s;
+}
+
+/* Changement de couleur du texte*/
+.footer:hover li
+{
+	color: #303030;
+}
+
+/* Changement de couleur des lien*/
+.footer:hover a
+{
+	color: #303030;
+}
