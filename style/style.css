@@ -1,0 +1,312 @@
+html{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+body{
+	position: relative;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#haut{
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+
+#title
+{
+	font-family: 'Quicksand';
+	font-size: 250%;
+	text-align: left;
+	color : #303030;
+	display: block;
+  margin-left: 2.5%;
+  margin-right: auto;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.page{
+	font-family: 'Quicksand';
+	font-size: 100%;
+	display: block;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-right: 2.5%;
+	margin-left: 0;
+}
+
+.page a{
+	color : #303030;
+}
+
+#colorpicker{
+	margin-right: 2.5%;
+}
+
+#VideoStream{
+	display: flex;
+	align-items: center;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+#ImgStream{
+	width: 50%;
+	border: 0;
+}
+
+#server_img{
+	height: auto;
+	width: 58%;
+}
+
+#server_div{
+	text-align: center;
+}
+
+#presentation_div{
+	text-align: center;
+}
+
+#presentation_img{
+	height: auto;
+	width: 40%;
+	margin-bottom: 2.5%;
+}
+
+/* Div des plans */
+#plans{
+	display: flex;
+	flex-direction: row;
+	justify-content : space-around;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-right: 5%;
+	margin-left: 5%
+}
+
+#explanations{
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-right: 2.5%;
+	margin-left: 2.5%
+}
+
+.tier{
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tier_name{
+	font-family: 'Quicksand';
+	font-size: 150%;
+	text-align: center;
+	color : #303030;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.description{
+	font-family: 'Quicksand';
+	font-size: 90%;
+	text-align: left;
+	color : #303030;
+	margin-top: 1%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+.storage, .data_ammount, .security, .about{
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.explanation_title{
+	font-family: 'Quicksand';
+	font-size: 125%;
+	text-align: left;
+	color : #303030;
+}
+
+.explanation_p{
+	font-family: 'Quicksand';
+	font-size: 100%;
+	text-align: left;
+	color : #303030;
+}
+
+.form_p{
+	font-family: 'Quicksand';
+	font-size: 100%;
+	text-align: left;
+	margin-left: 3%;
+	color : #303030;
+}
+
+.button {
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:80%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 12.5px;
+  font-weight: 700;
+  font-family: 'Quicksand';
+  color:#fff;
+  text-align: center;
+  background: #303030;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.form-example{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+.form-example label{
+	font-family: 'Quicksand';
+	font-size: 100%;
+	text-align: left;
+	color : #303030;
+}
+
+
+.form-submit{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+.button_form {
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:100%;
+  height: 30px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Quicksand';
+  color:#fff;
+  text-align: center;
+  background: #303030;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+section{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+p {
+	justify-content: space-around;
+	text-align: justify;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* Disposition du pied de page(footer), avec couleur et épaisseur*/
+footer
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #303030;
+	width: 100%;
+}
+
+/* Propriétés pour centrer le texte des 4 cases du pied de page */
+footer ul
+{
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Texte du footer, couleur et taille de police, avec hauteur des lignes pour ajuster au mieux les lignes*/
+footer ul li
+{
+	font-family: 'Quicksand';
+	vertical-align: top;
+	text-align: left;
+	color: #FFFFFF;
+	line-height: 20px;
+	list-style: none;
+}
+
+/* Couleur du texte des lien*/
+footer ul li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* idem que prècedent*/
+footer a
+{
+	color: #FFFFFF;
+	display: inline-block;
+	position: relative;
+}
+
+/* Changement de couleur du footer après placement avec le curseur*/
+.footer:hover
+{
+	background-color: #FFFFFF;
+	transition: 1s;
+}
+
+/* Changement de couleur du texte*/
+.footer:hover li
+{
+	color: #303030;
+}
+
+/* Changement de couleur des lien*/
+.footer:hover a
+{
+	color: #303030;
+}
